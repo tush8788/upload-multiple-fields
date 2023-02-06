@@ -1,0 +1,28 @@
+/* img form */
+.img-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.img-form form{
+    padding: 20px;
+    box-shadow: 0px 0px 4px 5px gray;
+}
+.img-form form input{
+  width: 200px;
+  margin-bottom: 4px;
+}
+
+/* img container */
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+/* .img-container div{
+    display: flex;
+    flex-direction: row;
+} */

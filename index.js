@@ -9,6 +9,14 @@ app.set('view engine','ejs');
 
 app.set('views','./views');
 
+app.set("layout extractScripts", true)
+
+app.set("layout extractStyles", true)
+
+app.use('/upload',express.static('./upload'));
+
+app.use(express.static('./assets'));
+
 app.use(expressLayout);
 
 app.use('/',require('./routes/index.js'));
